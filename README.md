@@ -1,4 +1,4 @@
-# vue_spa_template
+# Vue SPA Simple Template
 A simple spa template with vue.
 
 ## Setup
