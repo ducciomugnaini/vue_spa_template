@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Router from 'vue-router'
-import Post from './components/Post.vue'
-import Hello from './components/Hello.vue'
+import View_two from './components/View_two.vue'
+import View_one from './components/View_one.vue'
 
 Vue.use(Router)
 Vue.config.productionTip = false
@@ -10,14 +10,14 @@ Vue.config.productionTip = false
 const router = new Router({
   routes: [
     {
-      path: '/hello',
-      name:'hello',
-      component: Hello,
+      path: '/view_one',
+      name:'view_one',
+      component: View_one,
     },
     {
-      path: '/post/:id',
-      name:'post',
-      component: Post,
+      path: '/view_two/:id',
+      name:'view_two',
+      component: View_two,
       props: true,
     },
   ],

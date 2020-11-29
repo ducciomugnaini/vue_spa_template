@@ -1,5 +1,5 @@
 <template lang="html">
   <div class="greeting">
-    Hello from hello
+    Hello from view one
   </div>
 </template>

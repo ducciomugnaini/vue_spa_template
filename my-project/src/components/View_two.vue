@@ -1,6 +1,6 @@
 <template lang="html">
-  <div>
-    <p>Ciao from post</p>
+  <div class="greeting">
+    Hello from view two
   </div>
 </template>
 
@@ -38,7 +38,10 @@
     },
     
     created() {
+
+      // init
       this.getPost(this.id);
+
     },
 
     watch: {
